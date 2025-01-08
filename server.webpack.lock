@@ -1,0 +1,6 @@
+{
+  "https://s3.eu-central-1.amazonaws.com/bucket-dffb.org/GFFC-24-Aftermovie-16zu9.mp4": { "integrity": "sha512-J5FnKBfwH9wr/Q/m/clKaS+doUuvHOddgrM6FkKD5uKWS/7iW4wwEFvf5PUtM/KjmWk6e9XRkTA9pSh5GFbBSw==", "contentType": "video/mp4" },
+  "https://s3.eu-central-1.amazonaws.com/bucket-dffb.org/GFFC-24-Aftermovie-9zu16.mp4": { "integrity": "sha512-A9GJTUaYOOT5Whqd3bGSuMCFRErPrSStBy5XCUFADkaAB9m1EjS4nAO5CtbUCvKGXW8klfJWRj9yxLe2q+eqTw==", "contentType": "video/mp4" },
+  "https://youtu.be/PGhCe8V2T20.mp4": "no-cache",
+  "version": 1
+}
