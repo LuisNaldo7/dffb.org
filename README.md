@@ -1,14 +1,38 @@
 # Installation guide for dffb.org
 
-## Prerequisites
+## Setup
 
-1. Install Docker
+1. Install [Docker](https://www.docker.com/)
 
 2. Create data directory
 
-```bash
-mkdir ~/dffb.org
-```
+   ```bash
+   mkdir ~/dffb.org
+   ```
+
+3. Create backup process
+
+- Copy backup script to `~/dffb.org_backup.sh`.
+
+- Make backup script executable
+
+  ```bash
+  chmod +x ~/dffb.org_backup.sh
+  ```
+
+- Add cronjob to execute the script.
+
+  ```bash
+  crontab -e
+  ```
+
+  Content: `0 2 1 \* \* /home/nils/dffb.org_backup.sh`
+
+- Check cronjob.
+
+  ```bash
+      crontab -l
+  ```
 
 ## Server Management
 
